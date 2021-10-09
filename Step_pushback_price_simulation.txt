@@ -1,0 +1,13 @@
+Steps for running pushback simulation:
+
+Step 1: Remove the blocks that are outside the ultimatepit (Run SLOPE_removal code)
+
+Step 2: Generate Slope fil (Use mincutslope file). Please generate this only once.
+
+Step 3: Generate block economic value (Use bevcal_price function inside this Work_UP&PS folder). This code needs to be edited according to your unit of price
+
+Step 4: Pushback design using ultipit_production_sheduling function. This also needs to be edited according to the block size and specific gravity.
+
+Step 5: Step 4 needs to be run multiple time by changing the production target.
+
+Step 6: Use all solutions from Step 5 to get production schedule.
